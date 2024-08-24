@@ -9,6 +9,7 @@ body {
     justify-content: center;
     background-color: rgb(255, 255, 80);
     overflow: hidden;
+    flex-direction: column;
 }
 
 .counter {
@@ -38,4 +39,17 @@ body {
 
 .banana:active {
     opacity: 0.7;
+}
+
+.dbd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d0d0d0;
+
+    margin-top: 100px;
+}
+
+a {
+    color: #d0d0d0;
 }
