@@ -14,6 +14,10 @@ const App = () => {
                     onClick={() => setCount(count + 1)}
                     className="banana"
                 />
+                <span className="dbd">
+                    developed by&nbsp;
+                    <a href="https://djavelin.vercel.app">djavelin</a>
+                </span>
             </div>
         </>
     );
